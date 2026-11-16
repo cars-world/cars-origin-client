@@ -1,6 +1,6 @@
 {
   "name": "@rljson/cars-origin-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client website of the origin side of the cars example app, where catalogs are captured originally",
   "homepage": "https://github.com/rljson/cars-origin-client",
   "bugs": "https://github.com/rljson/cars-origin-client/issues",
