@@ -2,4 +2,4 @@
 // Kept in sync by test/cars_origin_client_version.spec.ts.
 
 /** The version of the `@rljson/cars-origin-client` package. */
-export const carsOriginClientVersion = '0.0.1';
+export const carsOriginClientVersion = '0.0.2';
