@@ -6,11 +6,11 @@ Use of this source code is governed by terms that can be
 found in the LICENSE file in the root of this package.
 -->
 
-# @rljson/cars-origin-client
+# @cars-world/cars-origin-client
 
 English | [Deutsch](README.de.md)
 
-[![CI](https://github.com/rljson/cars-origin-client/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/rljson/cars-origin-client/actions/workflows/quick_check.yaml)
+[![CI](https://github.com/cars-world/cars-origin-client/actions/workflows/quick_check.yaml/badge.svg)](https://github.com/cars-world/cars-origin-client/actions/workflows/quick_check.yaml)
 
 Client website of the origin side of the cars example app, where catalogs are captured originally.
 
@@ -32,7 +32,7 @@ The package is private and not published to npm. Depend on a tagged
 version of its git repository:
 
 ```bash
-pnpm add git+ssh://git@github.com/rljson/cars-origin-client.git#semver:^0.0.1
+pnpm add git+ssh://git@github.com/cars-world/cars-origin-client.git#semver:^0.0.1
 ```
 
 ## Usage
@@ -40,7 +40,7 @@ pnpm add git+ssh://git@github.com/rljson/cars-origin-client.git#semver:^0.0.1
 Show the hello lines in an element:
 
 ```ts
-import { showHello } from '@rljson/cars-origin-client';
+import { showHello } from '@cars-world/cars-origin-client';
 
 await showHello(document.getElementById('hello')!, (url) => fetch(url));
 ```
