@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- A push to `main` builds the image and deploys it to `dev`: the
+  workflow `deploy.yaml` calls the workflow `build` of `cars-deployment`
 - Move the repository to the GitHub organization `cars-world` and
   rename the package to `@cars-world/cars-origin-client`
 - Ask `api/hello` relative to the page, so the page works under any

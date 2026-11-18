@@ -2,4 +2,4 @@
 // Kept in sync by test/cars_origin_client_version.spec.ts.
 
 /** The version of the `@cars-world/cars-origin-client` package. */
-export const carsOriginClientVersion = '0.0.2';
+export const carsOriginClientVersion = '0.1.0';
