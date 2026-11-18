@@ -1,9 +1,9 @@
 {
-  "name": "@rljson/cars-origin-client",
+  "name": "@cars-world/cars-origin-client",
   "version": "0.0.2",
   "description": "Client website of the origin side of the cars example app, where catalogs are captured originally",
-  "homepage": "https://github.com/rljson/cars-origin-client",
-  "bugs": "https://github.com/rljson/cars-origin-client/issues",
+  "homepage": "https://github.com/cars-world/cars-origin-client",
+  "bugs": "https://github.com/cars-world/cars-origin-client/issues",
   "private": true,
   "license": "MIT",
   "engines": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rljson/cars-origin-client.git"
+    "url": "git+https://github.com/cars-world/cars-origin-client.git"
   },
   "main": "dist/cars-origin-client.js",
   "types": "dist/index.d.ts",

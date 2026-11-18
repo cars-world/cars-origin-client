@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Move the repository to the GitHub organization `cars-world` and
+  rename the package to `@cars-world/cars-origin-client`
 - Ask `api/hello` relative to the page, so the page works under any
   path, e.g. behind a proxy that strips a prefix
 - Build the image into the registry `crcars`, tagged with the version
