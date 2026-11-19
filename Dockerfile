@@ -14,8 +14,11 @@ RUN pnpm install --frozen-lockfile
 COPY . .
 RUN pnpm exec vite build
 
-FROM nginxinc/nginx-unprivileged:1.27-alpine
+# The stable series of nginx; apk upgrade picks up fixes of Alpine published
+# after the base image
+FROM nginxinc/nginx-unprivileged:1.30-alpine
 USER root
+RUN apk upgrade --no-cache
 COPY docker/default.conf.template /etc/nginx/templates/default.conf.template
 COPY public/index.html /usr/share/nginx/html/index.html
 COPY --from=build /app/dist/cars-origin-client.js /usr/share/nginx/html/
