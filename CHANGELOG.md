@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- The image is based on `nginx-unprivileged:1.30-alpine`, the stable
+  series, and upgrades its Alpine packages while building: no high or
+  critical findings with a fix
 - `deploy.yaml` can be started by hand with Run workflow, to deploy
   `main` again
 - A push to `main` builds the image and deploys it to `dev`: the
